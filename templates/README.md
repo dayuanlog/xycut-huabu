@@ -39,3 +39,11 @@ python xycut-huabu-skill/scripts/download_template.py --template-id example-16x9
 ```
 
 远程使用时通常省略 `--index`，按 Skill 默认的 GitHub 清单获取。无论清单中有多少套模板，每次只下载选中的一个 ZIP；缓存中已有且哈希正确时复用，不重复下载。
+
+## 代码许可与素材说明
+
+每个模板 ZIP 的根目录和 `project/` 工程内均提供 `LICENSE`、`THIRD_PARTY_NOTICES.md`，以及实际字体需要的 `LICENSES/`。自有代码按 MIT 授权，版权人为大圆（dayuanlog）。工程内也保留这些文件，确保 Agent 复制任务后仍可查阅许可。
+
+字体、图标保留原版权和许可。示例数字人、AI 配音和音效用于展示模板效果，不随代码 MIT 额外授予素材使用权。说明保持简洁，具体资源名称和对应原协议放在各包的 `LICENSES/`。
+
+新增模板应保留相同的许可结构和实际来源记录。修改 ZIP 内任意说明或文件后，都需重新计算 `sha256`，并同步 `size_bytes`。

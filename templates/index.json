@@ -15,9 +15,9 @@
         "fps": 30
       },
       "download_url": "./blueprint-dark-voice-16x9.zip",
-      "sha256": "5adcfa35c97d9f17200e49d798fad1f90587ec2aa3ff3d398761f1afe080e4e9",
+      "sha256": "9724492693f97e42e8c07757782355c9ce6cd848babea1f21d704236a619c00a",
       "min_skill_version": "0.7.0",
-      "size_bytes": 2178794
+      "size_bytes": 2187992
     },
     {
       "id": "blueprint-dark-voice-9x16",
@@ -33,9 +33,9 @@
         "fps": 30
       },
       "download_url": "./blueprint-dark-voice-9x16.zip",
-      "sha256": "2908ab6e7b8c6588d4099eba773b56b294dcef4d790056551fbb6afabb2c0181",
+      "sha256": "8630030964a671186701c75ae5fad76bf81df02855bd1b84018a19799de3e272",
       "min_skill_version": "0.7.0",
-      "size_bytes": 2162585
+      "size_bytes": 2170419
     },
     {
       "id": "blueprint-dark-window-9x16",
@@ -51,9 +51,9 @@
         "fps": 30
       },
       "download_url": "./blueprint-dark-window-9x16.zip",
-      "sha256": "9f9f997014a24a1c72b695d3e1e567b8803dc642d675ca884f3136ce72fa3e1e",
+      "sha256": "b0bdcbfd9145129718ed8e1e564994fa79de955a29c3739d6ef57aa01ee4712d",
       "min_skill_version": "0.7.0",
-      "size_bytes": 5442320
+      "size_bytes": 5450154
     },
     {
       "id": "chalkboard-presenter-9x16",
@@ -69,9 +69,9 @@
         "fps": 25
       },
       "download_url": "./chalkboard-presenter-9x16.zip",
-      "sha256": "518c85c814afe1c143ed1d927a712bcbbaffe4110145c31201eb9d529b86c92e",
+      "sha256": "0879ad821fc0f2fb4345095cf362e7e54af468dbd1485f9df840b0f94a1a80c1",
       "min_skill_version": "0.7.0",
-      "size_bytes": 4075753
+      "size_bytes": 4085181
     },
     {
       "id": "chalkboard-voice-16x9",
@@ -87,9 +87,9 @@
         "fps": 25
       },
       "download_url": "./chalkboard-voice-16x9.zip",
-      "sha256": "6bca61931e9770c3ae51940aa7be3c2fbc2adcba0e0457c257745e8de5feeedb",
+      "sha256": "dfb15df7afc3a1e9dd072c34f74e495dd94ecab5c5a3fe0c57107532d3dce67c",
       "min_skill_version": "0.9.0",
-      "size_bytes": 1669295
+      "size_bytes": 1674308
     },
     {
       "id": "chalkboard-voice-9x16",
@@ -105,9 +105,9 @@
         "fps": 25
       },
       "download_url": "./chalkboard-voice-9x16.zip",
-      "sha256": "b39ebd0617ccf6acdcf98c42c0eb623b597197b42e941b05d1dce73d564beec5",
+      "sha256": "7dab008fcfb20a7f6cdfc1a3b2686ebf769904226f984c2b7120216679e3ccd9",
       "min_skill_version": "0.7.0",
-      "size_bytes": 1759302
+      "size_bytes": 1768730
     },
     {
       "id": "chalkboard-window-16x9",
@@ -123,9 +123,9 @@
         "fps": 25
       },
       "download_url": "./chalkboard-window-16x9.zip",
-      "sha256": "f3e3efc8c4b1c6ae58a5acb05629925d8306f1125224418a014db97484382019",
+      "sha256": "9a63d50bd213518649a7a57dba437e315f6ff4aaebc8e356fee32feb3801e7d0",
       "min_skill_version": "0.9.0",
-      "size_bytes": 3310588
+      "size_bytes": 3315601
     },
     {
       "id": "chalkboard-window-9x16",
@@ -141,9 +141,9 @@
         "fps": 25
       },
       "download_url": "./chalkboard-window-9x16.zip",
-      "sha256": "7a1b636a01da2b11a680ec9bf0f5688fcc97b48781071fcecaa3f2ff73c08698",
+      "sha256": "e2cede7c9fa9b3e884a813da3bd0039ac13da81b3538f01aa12dc9cf42e5dafe",
       "min_skill_version": "0.7.0",
-      "size_bytes": 3342471
+      "size_bytes": 3351899
     },
     {
       "id": "charcoal-blue-presenter-9x16",
@@ -159,9 +159,9 @@
         "fps": 25
       },
       "download_url": "./charcoal-blue-presenter-9x16.zip",
-      "sha256": "c2dbbec78da83aa58a0851be8a8d759f0821ebd2642b50dd382e508378622db9",
+      "sha256": "0eecca384fe142fe387822282a29b2ef4f04331de6bc8f94834ff69ea053f360",
       "min_skill_version": "0.7.0",
-      "size_bytes": 4087624
+      "size_bytes": 4096924
     },
     {
       "id": "charcoal-blue-voice-16x9",
@@ -177,9 +177,9 @@
         "fps": 25
       },
       "download_url": "./charcoal-blue-voice-16x9.zip",
-      "sha256": "1ae8281cf51ba966339009fa3b0c291c5d6f53c98ccfa807284e160627ad75e4",
+      "sha256": "7717908395e9e1d5b433342e29808b8e1cd305ba1ecd3324c06fd79c988ce5ea",
       "min_skill_version": "0.9.0",
-      "size_bytes": 1465692
+      "size_bytes": 1474992
     },
     {
       "id": "charcoal-blue-voice-9x16",
@@ -195,9 +195,9 @@
         "fps": 25
       },
       "download_url": "./charcoal-blue-voice-9x16.zip",
-      "sha256": "0b73f6ddbb7041b2cfac82d68dca48cd1e031c9522f4183d1b563cc07f830436",
+      "sha256": "ce0fa830724322cf985029da606c00af44709d784f072f3e87bbc6281f72100b",
       "min_skill_version": "0.7.0",
-      "size_bytes": 1251212
+      "size_bytes": 1260512
     },
     {
       "id": "charcoal-blue-window-16x9",
@@ -213,9 +213,9 @@
         "fps": 25
       },
       "download_url": "./charcoal-blue-window-16x9.zip",
-      "sha256": "49c2a74a095d28d6011423fb4b12fa0e3b2caf0d99a66b5d165840b407bd096f",
+      "sha256": "abe2fbb85563e956a08ad37c91cf45c782fb5eeefafce52caad991a1a9e38276",
       "min_skill_version": "0.9.0",
-      "size_bytes": 4514808
+      "size_bytes": 4524108
     },
     {
       "id": "charcoal-blue-window-9x16",
@@ -231,9 +231,9 @@
         "fps": 25
       },
       "download_url": "./charcoal-blue-window-9x16.zip",
-      "sha256": "874a61ca49d158be595873327bf89d676a5dd21e7a8575f9f790f010172cbde2",
+      "sha256": "8c1dfdc558476339948d215cef56016e3f0a3b9c7de6c0fcd5a37a1393ee764f",
       "min_skill_version": "0.7.0",
-      "size_bytes": 3254483
+      "size_bytes": 3263783
     },
     {
       "id": "cream-journal-presenter-9x16",
@@ -249,9 +249,9 @@
         "fps": 25
       },
       "download_url": "./cream-journal-presenter-9x16.zip",
-      "sha256": "9c523974e3968d2aecd43f1cf5c81a0fa48649bd9547986949663f40ed424607",
+      "sha256": "9cc969225d3d12a11d77503aab0b060814677a5e6efdddcc08ebf5f2a29944b6",
       "min_skill_version": "0.7.0",
-      "size_bytes": 3649126
+      "size_bytes": 3658468
     },
     {
       "id": "cream-journal-voice-16x9",
@@ -267,9 +267,9 @@
         "fps": 25
       },
       "download_url": "./cream-journal-voice-16x9.zip",
-      "sha256": "acd067a9cb89e347657edc2f81fcc8a86f0b1da3b9c28543505afe30774fd370",
+      "sha256": "9a69cd8a9f7f998f0ce2c9d24a3344f56a2c7beda7352dd257b73f1a4ea770a2",
       "min_skill_version": "0.9.0",
-      "size_bytes": 2674980
+      "size_bytes": 2684300
     },
     {
       "id": "cream-journal-voice-9x16",
@@ -285,9 +285,9 @@
         "fps": 25
       },
       "download_url": "./cream-journal-voice-9x16.zip",
-      "sha256": "fc94ccba5376740dc28ed17ad3d6f66ef4e582c29bb284a869381003ce478cf5",
+      "sha256": "919526e6e7609e205dfddcc8a337a249ba3ae71d6f42c91ff3ac06b4c87f3a02",
       "min_skill_version": "0.7.0",
-      "size_bytes": 1712010
+      "size_bytes": 1721480
     },
     {
       "id": "cream-journal-window-16x9",
@@ -303,9 +303,9 @@
         "fps": 25
       },
       "download_url": "./cream-journal-window-16x9.zip",
-      "sha256": "605df7dccadeecd6ac066607238519f1b36f834a9af373a942f1d71d2977cda7",
+      "sha256": "7a4fb58de392232bd5b75315b429bc37a8eeae09376c4dc5063ce47f596e1639",
       "min_skill_version": "0.9.0",
-      "size_bytes": 4284467
+      "size_bytes": 4293787
     },
     {
       "id": "cream-journal-window-9x16",
@@ -321,9 +321,9 @@
         "fps": 25
       },
       "download_url": "./cream-journal-window-9x16.zip",
-      "sha256": "80066f83f8430ac597bfc01928641b5a2e311a2c7a0de5be7604637f481dcf38",
+      "sha256": "4397eaed28ee112946529c855abafb4df93240f1c65c4aac892174cda828b7a3",
       "min_skill_version": "0.7.0",
-      "size_bytes": 3346196
+      "size_bytes": 3355666
     },
     {
       "id": "forest-green-presenter-9x16",
@@ -339,9 +339,9 @@
         "fps": 25
       },
       "download_url": "./forest-green-presenter-9x16.zip",
-      "sha256": "cbf2b5b334bca1e753d892e0b3d9f5c1b7a0ef9e3973b2946a79aee47fd7fa93",
+      "sha256": "6c9b921c18d8bc968abc31ce8dba1820fe89134c9d484d917dd94ba7ad14e497",
       "min_skill_version": "0.7.0",
-      "size_bytes": 4063952
+      "size_bytes": 4073380
     },
     {
       "id": "forest-green-voice-16x9",
@@ -357,9 +357,9 @@
         "fps": 25
       },
       "download_url": "./forest-green-voice-16x9.zip",
-      "sha256": "c79903f8993dbb26dd7e742568aa0bc4f7a20f0ca64c8c817727d8b84d6335c9",
+      "sha256": "98ef20ea3cce738f34764bd533d5482a027137cab2761a724528ea1cfad0b75f",
       "min_skill_version": "0.9.0",
-      "size_bytes": 1269020
+      "size_bytes": 1273838
     },
     {
       "id": "forest-green-voice-9x16",
@@ -375,9 +375,9 @@
         "fps": 25
       },
       "download_url": "./forest-green-voice-9x16.zip",
-      "sha256": "ba00a669960f006820084a6f92902dfe2114f3c6ebe6dac6ca93cbd2c3b0e9ab",
+      "sha256": "376382d22091bf8aacbfa9c14102fd493994af095b95bca869a21b33d72fd735",
       "min_skill_version": "0.7.0",
-      "size_bytes": 1718643
+      "size_bytes": 1728071
     },
     {
       "id": "forest-green-window-16x9",
@@ -393,9 +393,9 @@
         "fps": 25
       },
       "download_url": "./forest-green-window-16x9.zip",
-      "sha256": "7aec34652290beb7c9647146f5867b99de22fb715acbb39439f0a81f9b8dea13",
+      "sha256": "975f2dce0eb1c853b1cbbd4aa229b1abc86ad90d8dbc81eca92b86380580759e",
       "min_skill_version": "0.9.0",
-      "size_bytes": 2905756
+      "size_bytes": 2910574
     },
     {
       "id": "forest-green-window-9x16",
@@ -411,9 +411,9 @@
         "fps": 25
       },
       "download_url": "./forest-green-window-9x16.zip",
-      "sha256": "c17214c40a664309069201aa1990444dcf1473823f95f92cdd879e876fc99fc0",
+      "sha256": "bc4e1ce4992aa235cb53e561a60a4fbb13d35f822d78d1268e8de9571c699aa8",
       "min_skill_version": "0.7.0",
-      "size_bytes": 3329599
+      "size_bytes": 3339027
     },
     {
       "id": "illust-fun-presenter-9x16",
@@ -429,9 +429,9 @@
         "fps": 25
       },
       "download_url": "./illust-fun-presenter-9x16.zip",
-      "sha256": "9e401be5409ecbc2916c73a5aa6227124d6552ffca4717b86115e23a1c90bc3a",
+      "sha256": "b02173a8f13cc580635abd1a7c0948aa858ed0bf860538b001c287c098cf228e",
       "min_skill_version": "0.7.0",
-      "size_bytes": 5363336
+      "size_bytes": 5368268
     },
     {
       "id": "illust-fun-voice-16x9",
@@ -447,9 +447,9 @@
         "fps": 25
       },
       "download_url": "./illust-fun-voice-16x9.zip",
-      "sha256": "f834bc3cdd685216add2818b6b6ae2551f9e67ff697306fae06e1637969191a5",
+      "sha256": "5de6bbdeb530700a106bb04e169ab817b1c957ab2b1a3cf2633fcc58ef6f37ca",
       "min_skill_version": "0.7.0",
-      "size_bytes": 1539878
+      "size_bytes": 1544810
     },
     {
       "id": "illust-fun-voice-9x16",
@@ -465,9 +465,9 @@
         "fps": 25
       },
       "download_url": "./illust-fun-voice-9x16.zip",
-      "sha256": "6a059d770f7d008277ab1168a1311701b02668159723bd68aeadcff78acc562a",
+      "sha256": "5f28776e052d701f19e75f854917afd279de9df5c4e41356ec1bfd0cc298bf7b",
       "min_skill_version": "0.7.0",
-      "size_bytes": 1315805
+      "size_bytes": 1320737
     },
     {
       "id": "lilac-neon-presenter-9x16",
@@ -483,9 +483,9 @@
         "fps": 25
       },
       "download_url": "./lilac-neon-presenter-9x16.zip",
-      "sha256": "36a9bb256b158b4df129165c8a3bdb4c493e5f67d06b4bcf84f461cf8eb89eea",
+      "sha256": "5e9282e222de7b164b5fd53a64308f86b00873d74cf90e882e1d42913fdeb2e6",
       "min_skill_version": "0.7.0",
-      "size_bytes": 4091233
+      "size_bytes": 4100661
     },
     {
       "id": "lilac-neon-voice-16x9",
@@ -501,9 +501,9 @@
         "fps": 25
       },
       "download_url": "./lilac-neon-voice-16x9.zip",
-      "sha256": "36c1ecb73aeeb4f788fb2c086d55b9a87ec5166d8ae5cb747652de20c19f4ac2",
+      "sha256": "6d44b462f1cb459ae0f9aae4af4f2d818481454916a2e40c2803fa3a48798641",
       "min_skill_version": "0.9.0",
-      "size_bytes": 1355736
+      "size_bytes": 1360554
     },
     {
       "id": "lilac-neon-voice-9x16",
@@ -519,9 +519,9 @@
         "fps": 25
       },
       "download_url": "./lilac-neon-voice-9x16.zip",
-      "sha256": "761ee3f553ceb03ea98aed627b7cd1276032ccaddc8c5d73c6a0599cccfd1c92",
+      "sha256": "eb0a5a625d1d1e6bcf081080e721df7241b2e05ce07d7c0a5c2dc347c85bd4d2",
       "min_skill_version": "0.7.0",
-      "size_bytes": 1749999
+      "size_bytes": 1759427
     },
     {
       "id": "lilac-neon-window-16x9",
@@ -537,9 +537,9 @@
         "fps": 25
       },
       "download_url": "./lilac-neon-window-16x9.zip",
-      "sha256": "81adc17a3c60082329427d8ee986f30da549334ab62377981e99b3c1e88054bf",
+      "sha256": "56b067da699d6e5765a10b30629d784e87be1f96dea6d02a6ce7abb690753dbd",
       "min_skill_version": "0.9.0",
-      "size_bytes": 3000329
+      "size_bytes": 3005147
     },
     {
       "id": "lilac-neon-window-9x16",
@@ -555,9 +555,9 @@
         "fps": 25
       },
       "download_url": "./lilac-neon-window-9x16.zip",
-      "sha256": "a3e16c48e22c5995f8c05e4b376a946269e8f1b177539ac8bcfebc8074427b29",
+      "sha256": "8b11c125663cb8772ff07a44f3fcc734f7cfcbf8038ff1f3b7f35786ad8f7052",
       "min_skill_version": "0.7.0",
-      "size_bytes": 3374438
+      "size_bytes": 3383866
     },
     {
       "id": "motion-whiteboard-window-16x9",
@@ -573,9 +573,9 @@
         "fps": 25
       },
       "download_url": "./motion-whiteboard-window-16x9.zip",
-      "sha256": "30ee7a9b5e34e8f6256d250ad7fee67313acedf8b2a174d5b0793dfaf1539ded",
+      "sha256": "0f7b9d275a9208e4728236777c1ec6dd3ef63f9892ad6c5959928e59ad634dca",
       "min_skill_version": "0.7.0",
-      "size_bytes": 4905074
+      "size_bytes": 4910006
     },
     {
       "id": "motion-whiteboard-window-9x16",
@@ -591,9 +591,9 @@
         "fps": 25
       },
       "download_url": "./motion-whiteboard-window-9x16.zip",
-      "sha256": "2357ce20d146d12c7db743a084133a51d06cbf38ef63e1839c472cca3ef71b96",
+      "sha256": "e41f529249b04bce38516255408caee5ec1c8fd73f23146b29ec3b34368132de",
       "min_skill_version": "0.7.0",
-      "size_bytes": 3955556
+      "size_bytes": 3960488
     },
     {
       "id": "navy-pink-presenter-9x16",
@@ -609,9 +609,9 @@
         "fps": 25
       },
       "download_url": "./navy-pink-presenter-9x16.zip",
-      "sha256": "98118f3159d08151be7141b88f0fa3f37e9002859124f9dc35a3eeab0ae8b332",
+      "sha256": "36c29dc9c2f713add903692cf12768d6eaecde6f2cf79cd0f199f04656c2958c",
       "min_skill_version": "0.7.0",
-      "size_bytes": 4074798
+      "size_bytes": 4084098
     },
     {
       "id": "navy-pink-voice-16x9",
@@ -627,9 +627,9 @@
         "fps": 25
       },
       "download_url": "./navy-pink-voice-16x9.zip",
-      "sha256": "e5ddde005a815b9c416de051c86efec1fddbc1ee58fa7847e58206d366366226",
+      "sha256": "1c2986ccdcd3528e2e1a56fc3bf02873d99c64224fa036a8885af0b46ae9f467",
       "min_skill_version": "0.9.0",
-      "size_bytes": 1579960
+      "size_bytes": 1589260
     },
     {
       "id": "navy-pink-voice-9x16",
@@ -645,9 +645,9 @@
         "fps": 25
       },
       "download_url": "./navy-pink-voice-9x16.zip",
-      "sha256": "ad956c34e983f712dd848517e7c7bc77dca5bb031b85afa680b1deba491edf0f",
+      "sha256": "5a91bdcd52293d8f4f9f3c97c1feac1c89930bc94851516f7e3ed0020d993372",
       "min_skill_version": "0.7.0",
-      "size_bytes": 1246105
+      "size_bytes": 1255405
     },
     {
       "id": "navy-pink-window-16x9",
@@ -663,9 +663,9 @@
         "fps": 25
       },
       "download_url": "./navy-pink-window-16x9.zip",
-      "sha256": "2989363fbea7ed42f07e7fcb142264e38ef28478001f3c2d9050629e26242a33",
+      "sha256": "2658f83a50aacc2bf00c1e9ce1d354cd5aa37dc05ee987fb3578b61dccaaf62a",
       "min_skill_version": "0.9.0",
-      "size_bytes": 4593319
+      "size_bytes": 4602619
     },
     {
       "id": "navy-pink-window-9x16",
@@ -681,9 +681,9 @@
         "fps": 25
       },
       "download_url": "./navy-pink-window-9x16.zip",
-      "sha256": "6e328d273e65c65e9b9ffad100b713c3fd9992837448bd7509b198e350da31fb",
+      "sha256": "aa72b92e4a8cd546aebb4752460a2652c97e1fd9a7ed24e0ea3e166fc00c2cf5",
       "min_skill_version": "0.7.0",
-      "size_bytes": 3247096
+      "size_bytes": 3256396
     },
     {
       "id": "pop-fun-presenter-9x16",
@@ -699,9 +699,9 @@
         "fps": 25
       },
       "download_url": "./pop-fun-presenter-9x16.zip",
-      "sha256": "8dafd8ddfd960ead8de618b2c1e487bcac7ac228a14c114106a7a0447be3f661",
+      "sha256": "ff90e79ab84e57bd0b462952badc06372a13165cd91bb2d2c6b794e6d5bb378a",
       "min_skill_version": "0.7.0",
-      "size_bytes": 5362977
+      "size_bytes": 5367909
     },
     {
       "id": "pop-fun-voice-16x9",
@@ -717,9 +717,9 @@
         "fps": 25
       },
       "download_url": "./pop-fun-voice-16x9.zip",
-      "sha256": "1765e61b15f10f4cde433b7fea10a2bc108fed122e8eb373cb147b504713e3d3",
+      "sha256": "64b5ca4745b12b06df25bad2a96e3460be94162b7af4d71f2cb7a55810a4dcd8",
       "min_skill_version": "0.7.0",
-      "size_bytes": 1513289
+      "size_bytes": 1518221
     },
     {
       "id": "pop-fun-voice-9x16",
@@ -735,9 +735,9 @@
         "fps": 25
       },
       "download_url": "./pop-fun-voice-9x16.zip",
-      "sha256": "14963e6d333309d457ceb3c7310502752b47e494942c7214b95ffaf0077f3178",
+      "sha256": "15b89b2ec54ecc7350bf675a2d4dfe2cfabf286812a026ade028d758f5aa23d6",
       "min_skill_version": "0.7.0",
-      "size_bytes": 1291080
+      "size_bytes": 1296012
     },
     {
       "id": "tech-purple-presenter-9x16",
@@ -753,9 +753,9 @@
         "fps": 25
       },
       "download_url": "./tech-purple-presenter-9x16.zip",
-      "sha256": "07eb7739fdd1a556f5c158da6bb64b31472e341e4201567bca37c1bc1d8f6db6",
+      "sha256": "f845e42c723d5d6df9454ad738eb16c58acd3c425c5df57f8dcd28c9422df254",
       "min_skill_version": "0.7.0",
-      "size_bytes": 4057582
+      "size_bytes": 4067010
     },
     {
       "id": "tech-purple-voice-16x9",
@@ -771,9 +771,9 @@
         "fps": 25
       },
       "download_url": "./tech-purple-voice-16x9.zip",
-      "sha256": "ac5b843617e8d0107eaa8f24aa740c132c8d7297337d566b050680bd2a928991",
+      "sha256": "d361b125b68d1f949160519cc923295e29f53001aacc65fd711a9abef18422b5",
       "min_skill_version": "0.9.0",
-      "size_bytes": 1445209
+      "size_bytes": 1450027
     },
     {
       "id": "tech-purple-voice-9x16",
@@ -789,9 +789,9 @@
         "fps": 25
       },
       "download_url": "./tech-purple-voice-9x16.zip",
-      "sha256": "3d212ab445088a99a6a38a09f35a9498a920d1f02849a294a2ac353d56c873fa",
+      "sha256": "d9c40dbd02f6a620c6ebb6ac03fc84d4dd26c1b4fec11c50c73d2890945a98fd",
       "min_skill_version": "0.7.0",
-      "size_bytes": 1775616
+      "size_bytes": 1785044
     },
     {
       "id": "tech-purple-window-16x9",
@@ -807,9 +807,9 @@
         "fps": 25
       },
       "download_url": "./tech-purple-window-16x9.zip",
-      "sha256": "5ea8bcde09c83a890a78ba2559327a860de0b94797aa3f7d336797bdaebc2244",
+      "sha256": "700801dfe774470c60f4f7295590f88850594597c5db12abe0274e4adb334074",
       "min_skill_version": "0.9.0",
-      "size_bytes": 3045747
+      "size_bytes": 3050565
     },
     {
       "id": "tech-purple-window-9x16",
@@ -825,9 +825,9 @@
         "fps": 25
       },
       "download_url": "./tech-purple-window-9x16.zip",
-      "sha256": "7a0fa2c40d359400b39fbb56a1c2c06778f8d57345f112b7be44f7623241c4cb",
+      "sha256": "4b828336ffc45ea99552e1c516208febbc89309735997141db506a99a72cac7b",
       "min_skill_version": "0.7.0",
-      "size_bytes": 3368305
+      "size_bytes": 3377733
     },
     {
       "id": "whiteboard-warm-presenter-9x16",
@@ -843,9 +843,9 @@
         "fps": 30
       },
       "download_url": "./whiteboard-warm-presenter-9x16.zip",
-      "sha256": "fc57bca5e6c9ede69f7c17438b62f9f590624c4d33588e77d7a36916fa144952",
+      "sha256": "3fa0dc76a7f8758b63a871d690a60e2605c0678025d2d6faf09a7ddef5e2c52a",
       "min_skill_version": "0.7.0",
-      "size_bytes": 6730004
+      "size_bytes": 6742168
     },
     {
       "id": "whiteboard-warm-voice-9x16",
@@ -861,9 +861,9 @@
         "fps": 30
       },
       "download_url": "./whiteboard-warm-voice-9x16.zip",
-      "sha256": "fe1346396df272d387241176ddcb658387a05f36f4cee844dcd5fefe46c4eb74",
+      "sha256": "81b48ad3aac0b57125f98737858a78f13e34af7167dc8153f3d199fcbf2cf3df",
       "min_skill_version": "0.7.0",
-      "size_bytes": 1946247
+      "size_bytes": 1954081
     },
     {
       "id": "whiteboard-warm-window-16x9",
@@ -879,9 +879,9 @@
         "fps": 30
       },
       "download_url": "./whiteboard-warm-window-16x9.zip",
-      "sha256": "a40530998c151f6d3e4ad0ef8131ac0ccf2a7a6095ad0faec17c563197934ffa",
+      "sha256": "df25d019da271381f244bed1a0a30ba8d27095624a225654e418401303763886",
       "min_skill_version": "0.7.0",
-      "size_bytes": 5426891
+      "size_bytes": 5436089
     }
   ]
 }

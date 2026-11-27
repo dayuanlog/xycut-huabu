@@ -4,15 +4,23 @@ Skill 保留制作规则、通用运行时和工具，模板放在开源项目�
 
 ## 模板索引与按需下载
 
-项目地址：https://github.com/dayuanlog/xycut-huabu 。完整项目中可读取 Skill 同级的 `templates/index.json`；只安装 Skill 时，默认读取以下公开索引，不要求本机同时拥有 `templates` 目录：
+项目地址：https://github.com/dayuanlog/xycut-huabu 。完整项目中优先读取 Skill 同级的 `templates/index.json`；只安装 Skill 时，默认读取以下公开索引，不要求本机同时拥有 `templates` 目录：
 
 ```text
 https://raw.githubusercontent.com/dayuanlog/xycut-huabu/main/templates/index.json
 ```
 
-索引结构为 `{"schema_version":1,"templates":[...]}`。每个模板包含 `id`、`name`、`download_url`、`sha256`，可选 `min_skill_version`；`download_url` 可以是相对于索引位置的地址或完整 HTTPS 地址。模板 ID 以索引为准，不从展示名称猜测。索引为空时明确当前暂无模板，不编造条目或下载地址；可继续使用用户提供的 ZIP 或通用运行时。
+索引结构为 `{"schema_version":1,"templates":[...]}`。每个模板包含 `id`、`name`、`download_url`、`sha256`，可选 `min_skill_version`；目录还可提供 `description`、`orientation`、`theme`、`presenter`、`narrative_mode`、`output` 等供选择使用的元数据。`download_url` 可以是相对于索引位置的地址或完整 HTTPS 地址。模板 ID 以索引为准，不从展示名称猜测。
 
-确定模板后，只下载选中的一个 ZIP：
+先按 [SKILL.md 的开始确认](../SKILL.md#开始时确认模板和比例)确定模板由谁选择及输出比例，再读取索引 JSON，确定本次使用的一个条目：
+
+- **官网已指定 ID：**按提示词中的原始 ID 精确查找，使用该条目；指定 ID 不存在时说明原因，不静默换成另一个模板或猜测地址。
+- **交给 Agent 选择：**根据素材内容、输出比例、是否有人物画面及风格要求，自主比较索引元数据并选一个。用户未明确的偏好可结合素材作合理选择；纯音频且没有人物素材时优先选 `presenter: false`。简要说明名称、ID 和选择理由后继续，不再要求用户去官网挑选或填写 ID。
+- **用户选择模板：**打开 [官网画布视频](https://www.xycut.com/canvas.html)，请用户把选定模板的提示词发回来，再按其中 ID 精确查找。没有浏览器能力时给出链接即可；未取得用户选择时不擅自切换为 Agent 自选。
+
+同名条目可能有不同横竖屏或人物形式，以 ID 区分；模板的示例输出比例可参考，最终构图仍遵守本次用户要求。挑选时只读取目录元数据，不批量下载 ZIP。索引为空时明确当前暂无模板，可用用户提供的 ZIP 或通用运行时；索引读取失败时说明问题，不编造条目或声称已找到可用模板。
+
+确定模板后，将该条目的 `id` 填入工具必需的 `--template-id` 参数，只下载选中的一个 ZIP；这个命令参数不要求用户提供：
 
 ```text
 python scripts/download_template.py --template-id <ID> --index https://raw.githubusercontent.com/dayuanlog/xycut-huabu/main/templates/index.json --task-dir <已创建的新任务>
@@ -30,6 +38,8 @@ python scripts/use_canvas_template.py --package <模板ZIP或解压目录> --tas
 ```
 
 此入口不读取 Agent Context，不需要客户端安装索引。支持 ZIP 外多包一层目录；检查路径逃逸、链接和大小限制，复制后工程不依赖临时解压位置。可使用新建空任务目录；拒绝覆盖已有工程和模板引用记录，不修改下载缓存。模板包的 `entry`、`canvas_plan`、`cover`、`preview` 都是相对包根目录的路径，不能指向包外。只有用户提供的普通 HTML 工程而没有 manifest 时，Agent 检查依赖后复制工程到任务副本，不伪造索引。
+
+下载后同时读取包根及 `project/` 中的 `LICENSE`、`THIRD_PARTY_NOTICES.md` 和所需 `LICENSES/`。这些项目内的说明会随任务副本保留；交付和另存模板时继续保留。项目 MIT 只覆盖有权授权的代码，第三方字体、数字人、配音和音效按具体来源及原协议处理，不把待核实资源重新描述为已授权，也不把用户新增素材自动按 MIT 授权。
 
 没有模板时可从 `assets/runtime`、`assets/preview` 等通用运行代码设计本次工程，补齐 `index.html`、主题、组件、计划和字幕接入；通用运行时不是完整风格模板，不声称有内置模板。仍需提供同样的预览面板、`READY`、`END` 和 `renderAt(t)` 契约。
 

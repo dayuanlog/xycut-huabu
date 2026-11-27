@@ -2,69 +2,31 @@
 
 把音频或口播视频交给 AI，参考喜欢的模板，制作带字幕、动画和人物画面的视频。
 
-先看预览，满意后再导出 MP4。支持横屏和竖屏，无需安装 XYCUT 客户端，也无需剪映。
+先看预览，满意后再导出 MP4。支持横屏和竖屏，无需剪映。
 
 <!-- 后续在这里补充实际效果视频与模板预览。 -->
 
-## 怎么使用
+## 复制这段话，交给 AI
 
-准备一个能安装 Skill、执行本地代码的 AI 助手，以及你的音频或带声音的口播视频。
-
-模板可以自己挑，也可以交给 AI 自动挑选，任选一种方式开始。
-
-### 方式一：到官网挑选喜欢的模板
-
-打开 [xycut.com](https://xycut.com)，进入「画布视频」，选择横屏或竖屏，点击喜欢的模板查看预览。
-
-在模板详情中点击「复制提示词」，粘贴给 AI 助手，再附上你的音频或口播视频。可以在最后补充要求，例如：
-
-> 做成横屏，保留人物小窗，重点内容用动画突出，字幕简洁一些。
-
-第一次使用时，可让 AI 助手按照提示词中的项目地址安装 Skill，并准备需要的工具。
-
-### 方式二：让 AI 自动选择模板
-
-直接把素材和要求交给 AI，让它根据内容、横竖屏和风格偏好，从本项目的模板库中挑选一个合适的模板使用。无需先到官网选择，也不用自己填写模板名称或编号。
-
-可以直接复制下面这段，附上你的素材：
+把下面这段提示词粘贴给你使用的 AI 助手，并附上音频或带声音的口播视频。使用支持 Skill 和本地代码执行的 Agent，例如 WorkBuddy、Codex 等。
 
 ```text
-使用 xycut-huabu-skill，根据我的素材和要求，从模板库中自动选择一个合适的模板制作视频。
-先提供预览，等我确认后再导出 MP4。
-若尚未安装 Skill，请从这里安装：https://github.com/dayuanlog/xycut-huabu
+使用 xycut-huabu-skill，把我提供的音频或口播视频制作成画布视频。先提供预览，等我确认后再导出 MP4。
 
-我的素材和要求：
-【附上音频或口播视频，以及想要的效果】
+Skill：https://github.com/dayuanlog/xycut-huabu/tree/main/xycut-huabu-skill
+未安装请先安装，并按照 SKILL.md 引导我开始。
 ```
 
-### 看预览，满意后导出
+AI 会帮你确认模板怎么选、视频做横屏还是竖屏。你可以全部交给它决定，也可以自己选；已经说明的要求不用重复确认。只有文案时，请先准备配音。
 
-AI 会参考模板的画面风格，根据你的内容重新安排字幕、动画和画面。先打开预览查看效果，需要调整就直接告诉 AI；确认满意后，再让它导出 MP4。
+## 想先看看模板？
 
-## 使用前了解
+打开 [www.xycut.com](https://www.xycut.com/canvas.html)，在「画布视频」里查看效果。喜欢哪套，就复制它的提示词交给 AI，再附上素材。
 
-- **先准备声音素材。** 支持音频和带声音的口播视频；只有文案时，请先准备配音。
-- **模板按需使用。** 用哪个模板，下载哪个，不用一次下载全部模板。
-- **先预览再导出。** 方便你在导出前调整画面和字幕。
-- **也可以使用客户端。** 在 [XYCUT 官网](https://xycut.com)下载客户端，可在软件里浏览、下载和管理模板。
+## 给 Agent
 
----
+只获取并安装 [`xycut-huabu-skill/`](xycut-huabu-skill/)，读取 [SKILL.md](xycut-huabu-skill/SKILL.md) 后执行。模板选择、比例确认、按需下载及环境准备都在 Skill 内说明，无需用户先研究目录或下载模板库。
 
-## 给 Agent 的说明
+## 许可
 
-### 安装与制作
-
-- 仓库：https://github.com/dayuanlog/xycut-huabu
-- Skill 名称：`xycut-huabu-skill`。
-- 只获取并安装本仓库的 [`xycut-huabu-skill/`](xycut-huabu-skill/) 目录，随后读取其中的 [SKILL.md](xycut-huabu-skill/SKILL.md)。不要为安装 Skill 预先下载整个模板库。
-- 此 Skill 固定独立运行。环境准备、声音识别、预览确认与导出流程均以 `SKILL.md` 及其引用规范为准。
-
-### 获取模板
-
-先读取[模板清单](https://raw.githubusercontent.com/dayuanlog/xycut-huabu/main/templates/index.json)。用户已指定模板时按 ID 查找；用户交由 Agent 选择时，根据素材内容、输出比例、风格偏好及清单中已有的名称、介绍等信息，自动选定一个合适的模板，简要说明所选名称和理由，再继续制作，不要求用户先到官网手动选择。
-
-仅下载本次选中的 ZIP，不为挑选模板批量下载全部 ZIP。具体下载、校验和缓存方式见[模板使用说明](xycut-huabu-skill/references/external-resources.md)。
-
-完整仓库在本地时，也可读取 [`templates/index.json`](templates/index.json)。找不到指定 ID 时如实说明，不猜测下载地址。用户提供了模板 ZIP 时，按 Skill 规范使用。
-
-添加公开模板的方法见 [`templates/README.md`](templates/README.md)。
+自有代码采用 [MIT License](LICENSE)，版权人为大圆（dayuanlog）。字体、图标和示例音视频保留各自的许可范围，详见[素材说明](THIRD_PARTY_NOTICES.md)。
