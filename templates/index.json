@@ -1,4 +1,887 @@
 {
   "schema_version": 1,
-  "templates": []
+  "templates": [
+    {
+      "id": "blueprint-dark-voice-16x9",
+      "name": "深色蓝图 · 纯配音",
+      "description": "深色蓝图 · 纯配音；横屏 1920×1080，深色，纯配音。",
+      "orientation": "landscape",
+      "theme": "dark",
+      "presenter": false,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 30
+      },
+      "download_url": "./blueprint-dark-voice-16x9.zip",
+      "sha256": "5adcfa35c97d9f17200e49d798fad1f90587ec2aa3ff3d398761f1afe080e4e9",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 2178794
+    },
+    {
+      "id": "blueprint-dark-voice-9x16",
+      "name": "深色蓝图 · 纯配音",
+      "description": "深色蓝图 · 纯配音；竖屏 1080×1920，深色，纯配音。",
+      "orientation": "portrait",
+      "theme": "dark",
+      "presenter": false,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30
+      },
+      "download_url": "./blueprint-dark-voice-9x16.zip",
+      "sha256": "2908ab6e7b8c6588d4099eba773b56b294dcef4d790056551fbb6afabb2c0181",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 2162585
+    },
+    {
+      "id": "blueprint-dark-window-9x16",
+      "name": "深色蓝图 · 人物小窗",
+      "description": "深色蓝图 · 人物小窗；竖屏 1080×1920，深色，人物小窗。",
+      "orientation": "portrait",
+      "theme": "dark",
+      "presenter": true,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30
+      },
+      "download_url": "./blueprint-dark-window-9x16.zip",
+      "sha256": "9f9f997014a24a1c72b695d3e1e567b8803dc642d675ca884f3136ce72fa3e1e",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 5442320
+    },
+    {
+      "id": "chalkboard-presenter-9x16",
+      "name": "黑板粉笔 · 人物主导",
+      "description": "黑板粉笔 · 人物主导；竖屏 1080×1920，深色，人物主导。",
+      "orientation": "portrait",
+      "theme": "dark",
+      "presenter": true,
+      "narrative_mode": "presenter-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./chalkboard-presenter-9x16.zip",
+      "sha256": "518c85c814afe1c143ed1d927a712bcbbaffe4110145c31201eb9d529b86c92e",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 4075753
+    },
+    {
+      "id": "chalkboard-voice-16x9",
+      "name": "黑板粉笔 · 纯配音",
+      "description": "黑板粉笔 · 纯配音；横屏 1920×1080，深色，纯配音。",
+      "orientation": "landscape",
+      "theme": "dark",
+      "presenter": false,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 25
+      },
+      "download_url": "./chalkboard-voice-16x9.zip",
+      "sha256": "6bca61931e9770c3ae51940aa7be3c2fbc2adcba0e0457c257745e8de5feeedb",
+      "min_skill_version": "0.9.0",
+      "size_bytes": 1669295
+    },
+    {
+      "id": "chalkboard-voice-9x16",
+      "name": "黑板粉笔 · 纯配音",
+      "description": "黑板粉笔 · 纯配音；竖屏 1080×1920，深色，纯配音。",
+      "orientation": "portrait",
+      "theme": "dark",
+      "presenter": false,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./chalkboard-voice-9x16.zip",
+      "sha256": "b39ebd0617ccf6acdcf98c42c0eb623b597197b42e941b05d1dce73d564beec5",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 1759302
+    },
+    {
+      "id": "chalkboard-window-16x9",
+      "name": "黑板粉笔 · 人物小窗",
+      "description": "黑板粉笔 · 人物小窗；横屏 1920×1080，深色，人物小窗。",
+      "orientation": "landscape",
+      "theme": "dark",
+      "presenter": true,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 25
+      },
+      "download_url": "./chalkboard-window-16x9.zip",
+      "sha256": "f3e3efc8c4b1c6ae58a5acb05629925d8306f1125224418a014db97484382019",
+      "min_skill_version": "0.9.0",
+      "size_bytes": 3310588
+    },
+    {
+      "id": "chalkboard-window-9x16",
+      "name": "黑板粉笔 · 人物小窗",
+      "description": "黑板粉笔 · 人物小窗；竖屏 1080×1920，深色，人物小窗。",
+      "orientation": "portrait",
+      "theme": "dark",
+      "presenter": true,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./chalkboard-window-9x16.zip",
+      "sha256": "7a1b636a01da2b11a680ec9bf0f5688fcc97b48781071fcecaa3f2ff73c08698",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 3342471
+    },
+    {
+      "id": "charcoal-blue-presenter-9x16",
+      "name": "炭黑电光蓝 · 人物主导",
+      "description": "炭黑电光蓝 · 人物主导；竖屏 1080×1920，深色，人物主导。",
+      "orientation": "portrait",
+      "theme": "dark",
+      "presenter": true,
+      "narrative_mode": "presenter-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./charcoal-blue-presenter-9x16.zip",
+      "sha256": "c2dbbec78da83aa58a0851be8a8d759f0821ebd2642b50dd382e508378622db9",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 4087624
+    },
+    {
+      "id": "charcoal-blue-voice-16x9",
+      "name": "炭黑电光蓝 · 纯配音",
+      "description": "炭黑电光蓝 · 纯配音；横屏 1920×1080，深色，纯配音。",
+      "orientation": "landscape",
+      "theme": "dark",
+      "presenter": false,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 25
+      },
+      "download_url": "./charcoal-blue-voice-16x9.zip",
+      "sha256": "1ae8281cf51ba966339009fa3b0c291c5d6f53c98ccfa807284e160627ad75e4",
+      "min_skill_version": "0.9.0",
+      "size_bytes": 1465692
+    },
+    {
+      "id": "charcoal-blue-voice-9x16",
+      "name": "炭黑电光蓝 · 纯配音",
+      "description": "炭黑电光蓝 · 纯配音；竖屏 1080×1920，深色，纯配音。",
+      "orientation": "portrait",
+      "theme": "dark",
+      "presenter": false,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./charcoal-blue-voice-9x16.zip",
+      "sha256": "0b73f6ddbb7041b2cfac82d68dca48cd1e031c9522f4183d1b563cc07f830436",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 1251212
+    },
+    {
+      "id": "charcoal-blue-window-16x9",
+      "name": "炭黑电光蓝 · 人物小窗",
+      "description": "炭黑电光蓝 · 人物小窗；横屏 1920×1080，深色，人物小窗。",
+      "orientation": "landscape",
+      "theme": "dark",
+      "presenter": true,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 25
+      },
+      "download_url": "./charcoal-blue-window-16x9.zip",
+      "sha256": "49c2a74a095d28d6011423fb4b12fa0e3b2caf0d99a66b5d165840b407bd096f",
+      "min_skill_version": "0.9.0",
+      "size_bytes": 4514808
+    },
+    {
+      "id": "charcoal-blue-window-9x16",
+      "name": "炭黑电光蓝 · 人物小窗",
+      "description": "炭黑电光蓝 · 人物小窗；竖屏 1080×1920，深色，人物小窗。",
+      "orientation": "portrait",
+      "theme": "dark",
+      "presenter": true,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./charcoal-blue-window-9x16.zip",
+      "sha256": "874a61ca49d158be595873327bf89d676a5dd21e7a8575f9f790f010172cbde2",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 3254483
+    },
+    {
+      "id": "cream-journal-presenter-9x16",
+      "name": "奶油手账 · 人物主导",
+      "description": "奶油手账 · 人物主导；竖屏 1080×1920，浅色，人物主导。",
+      "orientation": "portrait",
+      "theme": "light",
+      "presenter": true,
+      "narrative_mode": "presenter-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./cream-journal-presenter-9x16.zip",
+      "sha256": "9c523974e3968d2aecd43f1cf5c81a0fa48649bd9547986949663f40ed424607",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 3649126
+    },
+    {
+      "id": "cream-journal-voice-16x9",
+      "name": "奶油手账 · 纯配音",
+      "description": "奶油手账 · 纯配音；横屏 1920×1080，浅色，纯配音。",
+      "orientation": "landscape",
+      "theme": "light",
+      "presenter": false,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 25
+      },
+      "download_url": "./cream-journal-voice-16x9.zip",
+      "sha256": "acd067a9cb89e347657edc2f81fcc8a86f0b1da3b9c28543505afe30774fd370",
+      "min_skill_version": "0.9.0",
+      "size_bytes": 2674980
+    },
+    {
+      "id": "cream-journal-voice-9x16",
+      "name": "奶油手账 · 纯配音",
+      "description": "奶油手账 · 纯配音；竖屏 1080×1920，浅色，纯配音。",
+      "orientation": "portrait",
+      "theme": "light",
+      "presenter": false,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./cream-journal-voice-9x16.zip",
+      "sha256": "fc94ccba5376740dc28ed17ad3d6f66ef4e582c29bb284a869381003ce478cf5",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 1712010
+    },
+    {
+      "id": "cream-journal-window-16x9",
+      "name": "奶油手账 · 人物小窗",
+      "description": "奶油手账 · 人物小窗；横屏 1920×1080，浅色，人物小窗。",
+      "orientation": "landscape",
+      "theme": "light",
+      "presenter": true,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 25
+      },
+      "download_url": "./cream-journal-window-16x9.zip",
+      "sha256": "605df7dccadeecd6ac066607238519f1b36f834a9af373a942f1d71d2977cda7",
+      "min_skill_version": "0.9.0",
+      "size_bytes": 4284467
+    },
+    {
+      "id": "cream-journal-window-9x16",
+      "name": "奶油手账 · 人物小窗",
+      "description": "奶油手账 · 人物小窗；竖屏 1080×1920，浅色，人物小窗。",
+      "orientation": "portrait",
+      "theme": "light",
+      "presenter": true,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./cream-journal-window-9x16.zip",
+      "sha256": "80066f83f8430ac597bfc01928641b5a2e311a2c7a0de5be7604637f481dcf38",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 3346196
+    },
+    {
+      "id": "forest-green-presenter-9x16",
+      "name": "森系绿白 · 人物主导",
+      "description": "森系绿白 · 人物主导；竖屏 1080×1920，浅色，人物主导。",
+      "orientation": "portrait",
+      "theme": "light",
+      "presenter": true,
+      "narrative_mode": "presenter-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./forest-green-presenter-9x16.zip",
+      "sha256": "cbf2b5b334bca1e753d892e0b3d9f5c1b7a0ef9e3973b2946a79aee47fd7fa93",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 4063952
+    },
+    {
+      "id": "forest-green-voice-16x9",
+      "name": "森系绿白 · 纯配音",
+      "description": "森系绿白 · 纯配音；横屏 1920×1080，浅色，纯配音。",
+      "orientation": "landscape",
+      "theme": "light",
+      "presenter": false,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 25
+      },
+      "download_url": "./forest-green-voice-16x9.zip",
+      "sha256": "c79903f8993dbb26dd7e742568aa0bc4f7a20f0ca64c8c817727d8b84d6335c9",
+      "min_skill_version": "0.9.0",
+      "size_bytes": 1269020
+    },
+    {
+      "id": "forest-green-voice-9x16",
+      "name": "森系绿白 · 纯配音",
+      "description": "森系绿白 · 纯配音；竖屏 1080×1920，浅色，纯配音。",
+      "orientation": "portrait",
+      "theme": "light",
+      "presenter": false,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./forest-green-voice-9x16.zip",
+      "sha256": "ba00a669960f006820084a6f92902dfe2114f3c6ebe6dac6ca93cbd2c3b0e9ab",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 1718643
+    },
+    {
+      "id": "forest-green-window-16x9",
+      "name": "森系绿白 · 人物小窗",
+      "description": "森系绿白 · 人物小窗；横屏 1920×1080，浅色，人物小窗。",
+      "orientation": "landscape",
+      "theme": "light",
+      "presenter": true,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 25
+      },
+      "download_url": "./forest-green-window-16x9.zip",
+      "sha256": "7aec34652290beb7c9647146f5867b99de22fb715acbb39439f0a81f9b8dea13",
+      "min_skill_version": "0.9.0",
+      "size_bytes": 2905756
+    },
+    {
+      "id": "forest-green-window-9x16",
+      "name": "森系绿白 · 人物小窗",
+      "description": "森系绿白 · 人物小窗；竖屏 1080×1920，浅色，人物小窗。",
+      "orientation": "portrait",
+      "theme": "light",
+      "presenter": true,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./forest-green-window-9x16.zip",
+      "sha256": "c17214c40a664309069201aa1990444dcf1473823f95f92cdd879e876fc99fc0",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 3329599
+    },
+    {
+      "id": "illust-fun-presenter-9x16",
+      "name": "晴空插画 · 人物主导",
+      "description": "晴空插画 · 人物主导；竖屏 1080×1920，浅色，人物主导。",
+      "orientation": "portrait",
+      "theme": "light",
+      "presenter": true,
+      "narrative_mode": "presenter-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./illust-fun-presenter-9x16.zip",
+      "sha256": "9e401be5409ecbc2916c73a5aa6227124d6552ffca4717b86115e23a1c90bc3a",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 5363336
+    },
+    {
+      "id": "illust-fun-voice-16x9",
+      "name": "晴空插画 · 纯配音",
+      "description": "晴空插画 · 纯配音；横屏 1920×1080，浅色，纯配音。",
+      "orientation": "landscape",
+      "theme": "light",
+      "presenter": false,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 25
+      },
+      "download_url": "./illust-fun-voice-16x9.zip",
+      "sha256": "f834bc3cdd685216add2818b6b6ae2551f9e67ff697306fae06e1637969191a5",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 1539878
+    },
+    {
+      "id": "illust-fun-voice-9x16",
+      "name": "晴空插画 · 纯配音",
+      "description": "晴空插画 · 纯配音；竖屏 1080×1920，浅色，纯配音。",
+      "orientation": "portrait",
+      "theme": "light",
+      "presenter": false,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./illust-fun-voice-9x16.zip",
+      "sha256": "6a059d770f7d008277ab1168a1311701b02668159723bd68aeadcff78acc562a",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 1315805
+    },
+    {
+      "id": "lilac-neon-presenter-9x16",
+      "name": "淡紫荧光 · 人物主导",
+      "description": "淡紫荧光 · 人物主导；竖屏 1080×1920，浅色，人物主导。",
+      "orientation": "portrait",
+      "theme": "light",
+      "presenter": true,
+      "narrative_mode": "presenter-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./lilac-neon-presenter-9x16.zip",
+      "sha256": "36a9bb256b158b4df129165c8a3bdb4c493e5f67d06b4bcf84f461cf8eb89eea",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 4091233
+    },
+    {
+      "id": "lilac-neon-voice-16x9",
+      "name": "淡紫荧光 · 纯配音",
+      "description": "淡紫荧光 · 纯配音；横屏 1920×1080，浅色，纯配音。",
+      "orientation": "landscape",
+      "theme": "light",
+      "presenter": false,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 25
+      },
+      "download_url": "./lilac-neon-voice-16x9.zip",
+      "sha256": "36c1ecb73aeeb4f788fb2c086d55b9a87ec5166d8ae5cb747652de20c19f4ac2",
+      "min_skill_version": "0.9.0",
+      "size_bytes": 1355736
+    },
+    {
+      "id": "lilac-neon-voice-9x16",
+      "name": "淡紫荧光 · 纯配音",
+      "description": "淡紫荧光 · 纯配音；竖屏 1080×1920，浅色，纯配音。",
+      "orientation": "portrait",
+      "theme": "light",
+      "presenter": false,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./lilac-neon-voice-9x16.zip",
+      "sha256": "761ee3f553ceb03ea98aed627b7cd1276032ccaddc8c5d73c6a0599cccfd1c92",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 1749999
+    },
+    {
+      "id": "lilac-neon-window-16x9",
+      "name": "淡紫荧光 · 人物小窗",
+      "description": "淡紫荧光 · 人物小窗；横屏 1920×1080，浅色，人物小窗。",
+      "orientation": "landscape",
+      "theme": "light",
+      "presenter": true,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 25
+      },
+      "download_url": "./lilac-neon-window-16x9.zip",
+      "sha256": "81adc17a3c60082329427d8ee986f30da549334ab62377981e99b3c1e88054bf",
+      "min_skill_version": "0.9.0",
+      "size_bytes": 3000329
+    },
+    {
+      "id": "lilac-neon-window-9x16",
+      "name": "淡紫荧光 · 人物小窗",
+      "description": "淡紫荧光 · 人物小窗；竖屏 1080×1920，浅色，人物小窗。",
+      "orientation": "portrait",
+      "theme": "light",
+      "presenter": true,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./lilac-neon-window-9x16.zip",
+      "sha256": "a3e16c48e22c5995f8c05e4b376a946269e8f1b177539ac8bcfebc8074427b29",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 3374438
+    },
+    {
+      "id": "motion-whiteboard-window-16x9",
+      "name": "极客白板流 · 人物小窗",
+      "description": "极客白板流 · 人物小窗；横屏 1920×1080，浅色，人物小窗。",
+      "orientation": "landscape",
+      "theme": "light",
+      "presenter": true,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 25
+      },
+      "download_url": "./motion-whiteboard-window-16x9.zip",
+      "sha256": "30ee7a9b5e34e8f6256d250ad7fee67313acedf8b2a174d5b0793dfaf1539ded",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 4905074
+    },
+    {
+      "id": "motion-whiteboard-window-9x16",
+      "name": "极客白板流 · 人物小窗",
+      "description": "极客白板流 · 人物小窗；竖屏 1080×1920，浅色，人物小窗。",
+      "orientation": "portrait",
+      "theme": "light",
+      "presenter": true,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./motion-whiteboard-window-9x16.zip",
+      "sha256": "2357ce20d146d12c7db743a084133a51d06cbf38ef63e1839c472cca3ef71b96",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 3955556
+    },
+    {
+      "id": "navy-pink-presenter-9x16",
+      "name": "藏青亮粉 · 人物主导",
+      "description": "藏青亮粉 · 人物主导；竖屏 1080×1920，深色，人物主导。",
+      "orientation": "portrait",
+      "theme": "dark",
+      "presenter": true,
+      "narrative_mode": "presenter-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./navy-pink-presenter-9x16.zip",
+      "sha256": "98118f3159d08151be7141b88f0fa3f37e9002859124f9dc35a3eeab0ae8b332",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 4074798
+    },
+    {
+      "id": "navy-pink-voice-16x9",
+      "name": "藏青亮粉 · 纯配音",
+      "description": "藏青亮粉 · 纯配音；横屏 1920×1080，深色，纯配音。",
+      "orientation": "landscape",
+      "theme": "dark",
+      "presenter": false,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 25
+      },
+      "download_url": "./navy-pink-voice-16x9.zip",
+      "sha256": "e5ddde005a815b9c416de051c86efec1fddbc1ee58fa7847e58206d366366226",
+      "min_skill_version": "0.9.0",
+      "size_bytes": 1579960
+    },
+    {
+      "id": "navy-pink-voice-9x16",
+      "name": "藏青亮粉 · 纯配音",
+      "description": "藏青亮粉 · 纯配音；竖屏 1080×1920，深色，纯配音。",
+      "orientation": "portrait",
+      "theme": "dark",
+      "presenter": false,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./navy-pink-voice-9x16.zip",
+      "sha256": "ad956c34e983f712dd848517e7c7bc77dca5bb031b85afa680b1deba491edf0f",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 1246105
+    },
+    {
+      "id": "navy-pink-window-16x9",
+      "name": "藏青亮粉 · 人物小窗",
+      "description": "藏青亮粉 · 人物小窗；横屏 1920×1080，深色，人物小窗。",
+      "orientation": "landscape",
+      "theme": "dark",
+      "presenter": true,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 25
+      },
+      "download_url": "./navy-pink-window-16x9.zip",
+      "sha256": "2989363fbea7ed42f07e7fcb142264e38ef28478001f3c2d9050629e26242a33",
+      "min_skill_version": "0.9.0",
+      "size_bytes": 4593319
+    },
+    {
+      "id": "navy-pink-window-9x16",
+      "name": "藏青亮粉 · 人物小窗",
+      "description": "藏青亮粉 · 人物小窗；竖屏 1080×1920，深色，人物小窗。",
+      "orientation": "portrait",
+      "theme": "dark",
+      "presenter": true,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./navy-pink-window-9x16.zip",
+      "sha256": "6e328d273e65c65e9b9ffad100b713c3fd9992837448bd7509b198e350da31fb",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 3247096
+    },
+    {
+      "id": "pop-fun-presenter-9x16",
+      "name": "活力娱乐 · 人物主导",
+      "description": "活力娱乐 · 人物主导；竖屏 1080×1920，浅色，人物主导。",
+      "orientation": "portrait",
+      "theme": "light",
+      "presenter": true,
+      "narrative_mode": "presenter-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./pop-fun-presenter-9x16.zip",
+      "sha256": "8dafd8ddfd960ead8de618b2c1e487bcac7ac228a14c114106a7a0447be3f661",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 5362977
+    },
+    {
+      "id": "pop-fun-voice-16x9",
+      "name": "活力娱乐 · 纯配音",
+      "description": "活力娱乐 · 纯配音；横屏 1920×1080，浅色，纯配音。",
+      "orientation": "landscape",
+      "theme": "light",
+      "presenter": false,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 25
+      },
+      "download_url": "./pop-fun-voice-16x9.zip",
+      "sha256": "1765e61b15f10f4cde433b7fea10a2bc108fed122e8eb373cb147b504713e3d3",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 1513289
+    },
+    {
+      "id": "pop-fun-voice-9x16",
+      "name": "活力娱乐 · 纯配音",
+      "description": "活力娱乐 · 纯配音；竖屏 1080×1920，浅色，纯配音。",
+      "orientation": "portrait",
+      "theme": "light",
+      "presenter": false,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./pop-fun-voice-9x16.zip",
+      "sha256": "14963e6d333309d457ceb3c7310502752b47e494942c7214b95ffaf0077f3178",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 1291080
+    },
+    {
+      "id": "tech-purple-presenter-9x16",
+      "name": "暗紫科技 · 人物主导",
+      "description": "暗紫科技 · 人物主导；竖屏 1080×1920，深色，人物主导。",
+      "orientation": "portrait",
+      "theme": "dark",
+      "presenter": true,
+      "narrative_mode": "presenter-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./tech-purple-presenter-9x16.zip",
+      "sha256": "07eb7739fdd1a556f5c158da6bb64b31472e341e4201567bca37c1bc1d8f6db6",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 4057582
+    },
+    {
+      "id": "tech-purple-voice-16x9",
+      "name": "暗紫科技 · 纯配音",
+      "description": "暗紫科技 · 纯配音；横屏 1920×1080，深色，纯配音。",
+      "orientation": "landscape",
+      "theme": "dark",
+      "presenter": false,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 25
+      },
+      "download_url": "./tech-purple-voice-16x9.zip",
+      "sha256": "ac5b843617e8d0107eaa8f24aa740c132c8d7297337d566b050680bd2a928991",
+      "min_skill_version": "0.9.0",
+      "size_bytes": 1445209
+    },
+    {
+      "id": "tech-purple-voice-9x16",
+      "name": "暗紫科技 · 纯配音",
+      "description": "暗紫科技 · 纯配音；竖屏 1080×1920，深色，纯配音。",
+      "orientation": "portrait",
+      "theme": "dark",
+      "presenter": false,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./tech-purple-voice-9x16.zip",
+      "sha256": "3d212ab445088a99a6a38a09f35a9498a920d1f02849a294a2ac353d56c873fa",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 1775616
+    },
+    {
+      "id": "tech-purple-window-16x9",
+      "name": "暗紫科技 · 人物小窗",
+      "description": "暗紫科技 · 人物小窗；横屏 1920×1080，深色，人物小窗。",
+      "orientation": "landscape",
+      "theme": "dark",
+      "presenter": true,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 25
+      },
+      "download_url": "./tech-purple-window-16x9.zip",
+      "sha256": "5ea8bcde09c83a890a78ba2559327a860de0b94797aa3f7d336797bdaebc2244",
+      "min_skill_version": "0.9.0",
+      "size_bytes": 3045747
+    },
+    {
+      "id": "tech-purple-window-9x16",
+      "name": "暗紫科技 · 人物小窗",
+      "description": "暗紫科技 · 人物小窗；竖屏 1080×1920，深色，人物小窗。",
+      "orientation": "portrait",
+      "theme": "dark",
+      "presenter": true,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 25
+      },
+      "download_url": "./tech-purple-window-9x16.zip",
+      "sha256": "7a0fa2c40d359400b39fbb56a1c2c06778f8d57345f112b7be44f7623241c4cb",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 3368305
+    },
+    {
+      "id": "whiteboard-warm-presenter-9x16",
+      "name": "暖白板 · 人物主导",
+      "description": "暖白板 · 人物主导；竖屏 1080×1920，浅色，人物主导。",
+      "orientation": "portrait",
+      "theme": "light",
+      "presenter": true,
+      "narrative_mode": "presenter-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30
+      },
+      "download_url": "./whiteboard-warm-presenter-9x16.zip",
+      "sha256": "fc57bca5e6c9ede69f7c17438b62f9f590624c4d33588e77d7a36916fa144952",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 6730004
+    },
+    {
+      "id": "whiteboard-warm-voice-9x16",
+      "name": "暖白板 · 纯配音",
+      "description": "暖白板 · 纯配音；竖屏 1080×1920，浅色，纯配音。",
+      "orientation": "portrait",
+      "theme": "light",
+      "presenter": false,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30
+      },
+      "download_url": "./whiteboard-warm-voice-9x16.zip",
+      "sha256": "fe1346396df272d387241176ddcb658387a05f36f4cee844dcd5fefe46c4eb74",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 1946247
+    },
+    {
+      "id": "whiteboard-warm-window-16x9",
+      "name": "暖白板 · 人物小窗",
+      "description": "暖白板 · 人物小窗；横屏 1920×1080，浅色，人物小窗。",
+      "orientation": "landscape",
+      "theme": "light",
+      "presenter": true,
+      "narrative_mode": "canvas-led",
+      "output": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 30
+      },
+      "download_url": "./whiteboard-warm-window-16x9.zip",
+      "sha256": "a40530998c151f6d3e4ad0ef8131ac0ccf2a7a6095ad0faec17c563197934ffa",
+      "min_skill_version": "0.7.0",
+      "size_bytes": 5426891
+    }
+  ]
 }

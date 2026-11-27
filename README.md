@@ -65,6 +65,6 @@ AI 会参考模板的画面风格，根据你的内容重新安排字幕、动�
 
 仅下载本次选中的 ZIP，不为挑选模板批量下载全部 ZIP。具体下载、校验和缓存方式见[模板使用说明](xycut-huabu-skill/references/external-resources.md)。
 
-完整仓库在本地时，也可读取 [`templates/index.json`](templates/index.json)。当前清单尚未添加模板；找不到指定 ID 时如实说明，不猜测下载地址。用户提供了模板 ZIP 时，按 Skill 规范使用。
+完整仓库在本地时，也可读取 [`templates/index.json`](templates/index.json)。找不到指定 ID 时如实说明，不猜测下载地址。用户提供了模板 ZIP 时，按 Skill 规范使用。
 
 添加公开模板的方法见 [`templates/README.md`](templates/README.md)。
