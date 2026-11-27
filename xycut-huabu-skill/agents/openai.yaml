@@ -1,3 +1,3 @@
 interface:
   display_name: "XYCUT画布视频"
-  short_description: "独立读取音视频并本地识别，按需使用开源模板制作画布视频，先预览再渲染"
+  short_description: "文案配音或音视频识别，按需使用开源模板制作画布视频，保存工程并先预览再渲染"

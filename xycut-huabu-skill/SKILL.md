@@ -1,15 +1,17 @@
 ---
 name: xycut-huabu-skill
-description: 根据 MP3 或带声音的 MP4 独立制作 HTML 画布讲解视频，使用本地 SenseVoice 识别、按需下载开源模板，支持横竖屏、动画运镜与本地 MP4 渲染；先交付预览并等待确认。
+description: 根据文案、MP3 或带声音的 MP4 独立制作 HTML 画布讲解视频，支持豆包 TTS、本地 SenseVoice 或可选云端 ASR、本机配置与项目恢复、按需下载开源模板；先交付预览并等待确认，再导出 MP4。
 metadata:
-  version: "0.10.0"
+  version: "0.11.0"
 ---
 
 # XYCUT画布视频
 
 自有代码按 [MIT License](LICENSE) 授权，版权人为大圆（dayuanlog）；[第三方组件与素材说明](THIRD_PARTY_NOTICES.md)另行规定各资源的许可范围。复制模板后保留其许可文件，读取包内和工程内的素材说明；示例字体、数字人、配音和音效不因代码开源而自动获得 MIT 授权，未确认的事项不得描述成已授权。
 
-固定独立运行，不读取 XYCut Agent Context、不调用 XYCut 后端，不要求客户端、登录或会员。用户提供 MP3 或带声音的 MP4，使用本地 SenseVoice 识别；只有文案时先请用户准备音视频，本 Skill 不提供自动配音。
+固定独立运行，不读取 XYCut Agent Context、不调用 XYCut 后端，不要求客户端、登录或会员。支持文案、MP3 和带声音的 MP4。只有文案时使用用户自己的豆包 TTS 配置生成配音，再识别真实声音时间；已有音视频直接识别。默认保留本地 SenseVoice，云端 ASR 仅在用户选择并配置后使用。
+
+没有配音配置且用户只给文案时，合并询问：在本机配置豆包语音，还是使用 XYCut 客户端准备配音，或自行提供音视频。用户选用客户端时提供 [官网下载入口](https://www.xycut.com/#download)，由用户在客户端管理语音或使用客户端 Skill；本独立 Skill 仍只处理提供的文件。不把客户端或云端识别设为所有任务的前提。语音密钥保存在本机独立配置中，不写入 Skill、项目、提示词或 Agent 的记忆文件。
 
 ## 开始时确认模板和比例
 
@@ -25,14 +27,14 @@ README 通用提示词与官网模板提示词都属于本 Skill 的同一流程
 
 ## 环境与制作
 
-按[独立环境准备](references/environment-routing.md)检测本机能力并创建新任务，所有入口显式使用 `--mode standalone`：
+按[独立环境准备](references/environment-routing.md)检测本机能力。新任务只创建一次工程：
 
 ```text
-python scripts/detect_environment.py --mode standalone --speech local --input-type mp3
-python scripts/create_task_workspace.py --tasks-root <用户工作目录>/xycut-tasks --label <短名> --mode standalone
+python scripts/speech.py check --input-type text
+python scripts/project.py create --label <短名>
 ```
 
-命令中的 `scripts/` 相对当前 Skill 安装目录，必要时使用脚本绝对路径。MP4 输入把 `--input-type` 改为 `mp4`。使用命令返回的任务目录，已有项目修改沿用原目录，然后执行[共用制作流程](references/workflow.md)和[本地识别规范](references/standalone-local-asr.md)。安装位置按当前 Agent 环境解析，不硬编码开发机器路径。检测的 `ready` 或 Skill 安装完成都不表示 ASR 和渲染依赖已安装，按实际检测及运行结果准备缺项。
+命令中的 `scripts/` 相对当前 Skill 安装目录，必要时使用脚本绝对路径。音视频输入把 `--input-type` 改为 `mp3` 或 `mp4`。使用返回的任务目录，按[独立语音](references/standalone-speech.md)执行 `speech.py prepare`，然后进入[共用制作流程](references/workflow.md)。已有项目用 `project.py resume --task-dir <原目录>` 读取记录，继续原目录并复用校验通过的声音和时间轴，不重新配音、另建工程。细则见[项目记录与恢复](references/project-records.md)。安装位置按当前 Agent 环境解析，不硬编码开发机器路径；检测成功不等于依赖、凭据和模型均已实际验证。
 
 开源项目：https://github.com/dayuanlog/xycut-huabu 。只安装仓库中的 `xycut-huabu-skill` 目录，不预先下载全部模板。按上面的选择结果进入[模板索引与按需下载](references/external-resources.md#模板索引与按需下载)：已有 ID 时使用该条目，交给 Agent 时读取目录自主选一个，用户手动选时使用其返回的 ID。只下载选中的一个 ZIP；也可使用用户提供的 ZIP 或通用运行时创作。
 
@@ -42,6 +44,8 @@ python scripts/create_task_workspace.py --tasks-root <用户工作目录>/xycut-
 | 横屏／竖屏 | [横屏](references/landscape-framing.md)／[竖屏](references/portrait-framing.md) |
 | 人物出镜 | [人物叙事与窗口交接](references/presenter-video.md) |
 | 本地 ASR 与工具准备 | [独立环境与 SenseVoice](references/standalone-local-asr.md) |
+| 文案配音、可选云端 ASR、本机语音配置 | [独立语音](references/standalone-speech.md) |
+| 保存工程、查找历史、继续修改 | [项目记录与恢复](references/project-records.md) |
 | 封面、标题、字幕、音效 | [标题与封面](references/series-titles-and-covers.md)、[字幕](references/subtitles.md)、[表现与声音](references/presentation-and-sound.md) |
 | Motion 快节奏白板流（按需） | [Motion 快节奏白板流](references/motion-whiteboard.md)（仅选定极客白板流模板或要求快节奏框选动效时读） |
 | 字体选用、缺字补全与子集打包 | [字体与子集规范](references/fonts-and-subsetting.md) |
