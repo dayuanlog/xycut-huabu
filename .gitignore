@@ -1,0 +1,20 @@
+# Only publish the Skill, template library and repository documentation.
+/*
+!/.gitignore
+!/README.md
+!/xycut-huabu-skill/
+!/templates/
+
+# Exclude generated files inside the published directories as well.
+__pycache__/
+*.py[cod]
+.venv/
+.cache/
+node_modules/
+*.part
+*.log
+*.tmp
+*.bak
+dist/
+.DS_Store
+Thumbs.db

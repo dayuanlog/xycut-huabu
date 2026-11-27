@@ -1,0 +1,13 @@
+/* Preview controls are independent of the rendered canvas theme. */
+.sidebar{background:#101722;border-left-color:#344456;color:#fffaf2}
+.intro .version,.sidebar .version{color:#8ba9c0}
+.sidebar .intro h2{color:#fffaf2}.sidebar .intro p{color:#92a1b5}
+.timeline{background:#151f2b;border-color:#344456}
+.timeline #spoken-line{color:#fffaf2}
+.shot-label,.time-row output,.time-row label,.guide-toggle,.subtitle-control{color:#92a1b5}
+.transport button,.toolbar button,.review-action,.phases button,.sidebar .library-list button{background:#1a2835;color:#c7dae3;border-color:#344456}
+.phases button span{color:#00c1cd}
+.phases button.current{border-color:#00c1cd!important;color:#f4fdff!important;background:#16303b!important}
+.sidebar .library-list summary,.review-heading h2,#review-status{color:#92a1b5}
+.sidebar .library-list .preview-entry{color:#8cb6c3}
+.subtitle-control select{background:#1a2835;color:#c7dae3;border-color:#344456}
